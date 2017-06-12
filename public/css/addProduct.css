@@ -1,0 +1,45 @@
+/*za footer-ot da e zalepen dole sekogas*/
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#kontejner{
+    min-height: 100%;
+    position: relative;
+    /*padding-bottom: 60px;*/
+}
+
+
+#divForma{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 100px;
+}
+
+#btnAddProduct{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    background-color:rgba(0, 150, 136, 0.67);
+    border-color:rgb(0, 150, 136);
+}
+
+/*footer*/
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #607D8B;
+    height: 50px;
+}
+
+#footerOznaka{
+    display: block;
+    padding-left:42%;
+    padding-top:20px;
+    color:white;
+}

@@ -1,0 +1,18 @@
+#produktiKosnica{
+    margin-top: 10px;
+}
+
+#btnCheckout{
+    background-color: #607D8B;
+    border-color: #607D8B;
+    margin-bottom: 10px;
+}
+
+#noItems{
+    display: block;
+    margin-bottom: 100px;
+}
+
+#checkoutButton{
+    margin-bottom: 100px;
+}
