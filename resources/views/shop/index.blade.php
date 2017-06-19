@@ -74,8 +74,8 @@
                 <p id="sortByPTag">Sort by:</p>
                 <p>
                     <select name="sortOptions">
-                        <option value="price asc">Price: Lower to Higher</option>
                         <option value="price dsc">Price: Higher to Lower</option>
+                        <option value="price asc">Price: Lower to Higher</option>
                         <option value="id dsc">Newest First</option>
                         <option value="id asc">Oldest First</option>
                     </select>
@@ -113,17 +113,17 @@
                 <p>
                     <select name="genderOptions">
                         <option value="%">All</option>
-                        <option value="0">Kids</option>
+                        <option value="0">Children's</option>
                         {{--@if(Session::has('gender') && Session::get('gender')=="1")--}}
                         {{--<option value="1" selected>Mens</option>--}}
                         {{--@else--}}
-                        <option value="1">Mens</option>
+                        <option value="1">Men's</option>
                         {{--@endif--}}
 
                         {{--@if(Session::has('gender') && Session::get('gender')=="2")--}}
                         {{--<option value="2" selected>Womens</option>--}}
                         {{--@else--}}
-                        <option value="2">Womens</option>
+                        <option value="2">Women's</option>
                         {{--@endif--}}
                     </select>
                 </p>

@@ -76,15 +76,15 @@
     <div class="container-fluid">
         <div>
             <ul class="nav navbar-nav" id="mens">
-                <li><a href="{{route('product.mens')}}">Mens</a></li>
-                <li><a href="{{route('product.womens')}}">Womens</a></li>
-                <li><a href="{{route('product.kids')}}">Kids</a></li>
+                <li><a href="{{route('product.mens')}}">Men's</a></li>
+                <li><a href="{{route('product.womens')}}">Women's</a></li>
+                <li><a href="{{route('product.kids')}}">Children's</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brands<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('product.getBrandProduct',['name'=>'Casio']) }}">Casio</a></li>
-                        <li><a href="{{ route('product.getBrandProduct',['name'=>'Festina']) }}">Festina</a></li>
-                        <li><a href="{{ route('product.getBrandProduct',['name'=>'Rolex']) }}">Rolex</a></li>
+                        <li><a href="{{ route('product.getBrandProduct',['name'=>'Esprit']) }}">Esprit</a></li>
+                        <li><a href="{{ route('product.getBrandProduct',['name'=>'Fossil']) }}">Fossil</a></li>
                     </ul>
                 </li>
             </ul>

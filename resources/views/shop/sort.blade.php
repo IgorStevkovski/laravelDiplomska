@@ -87,16 +87,16 @@
                 <p id="sortByPTag">Sort by:</p>
                 <p>
                     <select name="sortOptions">
-                        @if(Session::has('sortOptions') && Session::get('sortOptions')=="Price: Lower to Higher")
-                            <option value="price asc" selected>Price: Lower to Higher</option>
-                        @else
-                            <option value="price asc">Price: Lower to Higher</option>
-                        @endif
-
                         @if(Session::has('sortOptions') && Session::get('sortOptions')=="Price: Higher to Lower")
                             <option value="price dsc" selected>Price: Higher to Lower</option>
                         @else
                             <option value="price dsc">Price: Higher to Lower</option>
+                        @endif
+
+                        @if(Session::has('sortOptions') && Session::get('sortOptions')=="Price: Lower to Higher")
+                            <option value="price asc" selected>Price: Lower to Higher</option>
+                        @else
+                            <option value="price asc">Price: Lower to Higher</option>
                         @endif
 
                         @if(Session::has('sortOptions') && Session::get('sortOptions')=="Newest First")
@@ -194,21 +194,21 @@
                         @endif
 
                         @if(Session::has('gender') && Session::get('gender')=="0")
-                            <option value="0" selected>Kids</option>
+                            <option value="0" selected>Children's</option>
                         @else
-                            <option value="0">Kids</option>
+                            <option value="0">Children's</option>
                         @endif
 
                         @if(Session::has('gender') && Session::get('gender')=="1")
-                            <option value="1" selected>Mens</option>
+                            <option value="1" selected>Men's</option>
                         @else
-                            <option value="1">Mens</option>
+                            <option value="1">Men's</option>
                         @endif
 
                         @if(Session::has('gender') && Session::get('gender')=="2")
-                            <option value="2" selected>Womens</option>
+                            <option value="2" selected>Women's</option>
                         @else
-                            <option value="2">Womens</option>
+                            <option value="2">Women's</option>
                         @endif
                     </select>
                 </p>
