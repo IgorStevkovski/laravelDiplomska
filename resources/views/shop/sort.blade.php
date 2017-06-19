@@ -35,7 +35,7 @@
                     minPrice = niza2[1];
                 }
                 if(niza2[0] == "maxPrice2"){
-                    maxPrice = niza2[1];
+                    maxPrice = niza2[1]; //opcija
                 }
             }
 
